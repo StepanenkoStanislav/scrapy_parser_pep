@@ -1,15 +1,15 @@
 Статус,Количество
 Active,23
+Final,211
 Rejected,106
 Withdrawn,48
-Deferred,31
-Final,211
+Superseded,15
+Draft,16
 Informational,30
 Accepted,29
-Superseded,15
 Standards Track,106
-Draft,15
+Deferred,31
 Provisional,1
 Process,5
 April Fool!,1
-Total,621
+Total,622

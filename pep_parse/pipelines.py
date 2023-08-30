@@ -5,11 +5,8 @@ from pep_parse.settings import DATETIME_FORMAT, BASE_DIR
 
 
 class PepParsePipeline:
-    def __init__(self):
-        self.statuses = {}
-
     def open_spider(self, spider):
-        pass
+        self.statuses = {}
 
     def process_item(self, item, spider):
         status = item['status']
