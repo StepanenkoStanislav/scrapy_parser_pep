@@ -23,6 +23,8 @@
 
 В директории scrapy_parser_pep в терминале
 
+`pip install -r requirements.txt`
+
 `scrapy crawl pep`
 
 ## Технологии
