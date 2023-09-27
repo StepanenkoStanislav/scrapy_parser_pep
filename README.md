@@ -9,13 +9,49 @@
 Результаты сохраняются в директорию _results_ в директории проекта.
 
 
-## Запуск
+## Установка
 
-1. Необходимо установить зависимости из файла _scrapy_parser_pep/requirements.txt_:
+Клонировать репозиторий и перейти в него в командной строке:
 
-`pip install -r requirements.txt`
+```
+git clone 
+```
 
-2. Находясь в директории _scrapy_parse_pep_ в терминале необходимо выполнить команду:
+```
+cd scrapy_parser_pep
+```
+
+Cоздать и активировать виртуальное окружение:
+
+```
+python3 -m venv venv
+```
+
+* Если у вас Linux/macOS
+
+    ```
+    source venv/bin/activate
+    ```
+
+* Если у вас windows
+
+    ```
+    source venv/scripts/activate
+    ```
+
+Установить зависимости из файла requirements.txt:
+
+```
+python3 -m pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
+```
+
+### Запуск
+
+Находясь в директории _scrapy_parser_pep_ в терминале необходимо выполнить команду:
 
 `scrapy crawl pep`
 
@@ -27,7 +63,12 @@
 
 `scrapy crawl pep`
 
+
 ## Технологии
+
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" alt="python" width="40" height="40"/>&nbsp
+</div>
 
 В проекте используются следующие технологии:
 
@@ -36,4 +77,4 @@
 
 ## Автор
 
-[Степаненко Станислав](https://t.me/tme_zoom)
+[![Telegram Badge](https://img.shields.io/badge/StepanenkoStanislav-blue?logo=telegram&logoColor=white)](https://t.me/tme_zoom) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:stepanenko.s.a.dev@gmail.com)
